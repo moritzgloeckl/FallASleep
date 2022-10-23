@@ -1,0 +1,7 @@
+Setup a timer between one and 60 minutes. Once the timer runs out, the app will lock your device's screen.
+
+Features:
+<ul><li>Simple and clean design</li><li>Lock screen after 1 to 60 minutes</li><li>Remembers last timer</li><li>Quick setting tile</li><li>Notification to stop, extend or reset timer</li></ul>
+
+Permissions:
+<ul><li>Device admin to lock the screen</li></ul>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FallASleep</string>
+    <string name="shared_prefs_default_time_key">default_time</string>
+    <string name="shared_prefs_name">fall_a_sleep</string>
+    <string name="notification_channel_id">fall_a_sleep</string>
+    <string name="notification_channel_name">Pending Sleep</string>
+    <integer name="notification_id">1</integer>
+    <integer name="default_time_minutes">15</integer>
+    <string name="action_extra_id">action</string>
+    <string name="notification_content_title">Scheduled sleep</string>
+    <string name="stop_action_title">Stop</string>
+    <string name="reset_action_title">Reset</string>
+    <string name="extend_action_title">+ %d</string>
+    <string name="notification_content_text_min">Going to sleep in %d minutes.</string>
+    <string name="notification_content_text_sec">Going to sleep in less than a minute.</string>
+    <string name="permission_dialog_title">Permission needed</string>
+    <string name="permission_dialog_text">This app needs your permission to lock the screen.\n\nAndroid apps are only able to lock the screen, if they have device admin privileges. Making this app a device admin will not give
+        it any other permission whatsoever. Furthermore, the app can and will not request more permissions itself.\n\nIf you don\'t give this permission, the app will not work and cannot lock the screen.</string>
+    <string name="permission_dialog_continue">Continue</string>
+    <string name="permission_dialog_exit">Exit</string>
+    <string name="permission_dialog_device_admin">In order to lock your screen after the timer runs off this app needs your permission.</string>
+    <string name="quick_tile_start_default">Start sleep timer</string>
+    <string name="quick_tile_start_subtitle">%d min</string>
+    <string name="quick_tile_stop">Stop sleep timer</string>
+</resources>

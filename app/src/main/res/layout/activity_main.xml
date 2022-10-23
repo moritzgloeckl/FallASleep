@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/darkest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+        <me.tankery.lib.circularseekbar.CircularSeekBar
+            android:id="@+id/seek_bar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:cs_negative_enabled="false"
+            app:cs_progress="15"
+            app:cs_max="60"
+            app:cs_circle_style="round"
+            app:cs_circle_stroke_width="28sp"
+            app:cs_pointer_stroke_width="28sp"
+            app:cs_move_outside_circle="true"
+            app:cs_lock_enabled="true"
+            app:cs_circle_color="@color/light_gray"
+            app:cs_circle_progress_color="@color/salmon"
+            app:cs_pointer_color="@color/brickred"
+            app:cs_pointer_halo_color = "@color/brickred"
+            app:cs_pointer_halo_color_ontouch = "@color/brickred"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/viewWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/timeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="100sp"
+                android:text="15"
+                android:gravity="center"
+                android:textColor="@color/tangerine" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MIN"
+                android:id="@+id/minTextView"
+                android:textColor="@color/tangerine"
+                android:textSize="30sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

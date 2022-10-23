@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0D0D0D</color>
+    <color name="colorPrimaryDark">#FF0D0D0D</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_gray">#FF595959</color>
+    <color name="tangerine">#FFF2AD94</color>
+    <color name="salmon">#FFBF6956</color>
+    <color name="salmon_complimentary">#66a6776c</color>
+    <color name="brickred">#FFBF4B4B</color>
+    <color name="darkest">#FF0D0D0D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="almost_white">#FFF9F7F5</color>
+    <color name="invisible">#00ffffff</color>
+</resources>
