@@ -28,6 +28,12 @@
 
 Use the slider to setup a timer between one and 60 minutes. Your screen will be locked after the timer runs out. The timer can be modified with a persistent notification. It's possible to reset the timer to the time you set up, stop the timer completely or extend the timer. Extension time is based on a third of the time you initially chose, so when you set up a timer for 15 minutes you can extend in five minutes steps. FallASleep also provides a quick settings tile where it's possible to conviniently start/stop the timer. The quick settings tile uses the last time you set up.
 
+## Download
+
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/me.gloeckl.fallasleep/)
+
 ## Contribution
 
 Any ideas, pull requests, bug reports are welcome! 
