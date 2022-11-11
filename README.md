@@ -2,6 +2,15 @@
 <h2 align="center"><b>FallASleep</b></h2>
 <h4 align="center">Android sleep timer app 📱💤</h4>
 
+<p align="center"><a href="https://f-droid.org/packages/me.gloeckl.fallasleep/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-en.svg" alt="Get it on F-Droid" height=80/></a></p>
+
+<p align="center">
+<a href="https://en.wikipedia.org/wiki/Austria"><img src="https://img.shields.io/badge/Made%20in-Austria-%23ED2939.svg"></a>
+<a href="https://github.com/moritzgloeckl/FallASleep/releases" alt="GitHub release"><img src="https://img.shields.io/github/release/moritzgloeckl/FallASleep.svg"></a>
+<a href="https://github.com/moritzgloeckl/FallASleep/blob/main/LICENSE" alt="License: MIT"><img src="https://img.shields.io/badge/license-MIT-blue"></a>
+<a href="https://f-droid.org/packages/me.gloeckl.fallasleep/"><img alt="F-Droid" src="https://img.shields.io/f-droid/v/me.gloeckl.fallasleep"></a>
+</p>
+
 ## Features
 
 - Simple and clean design
